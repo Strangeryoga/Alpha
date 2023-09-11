@@ -1,0 +1,516 @@
+body{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 690px;
+    background-color: #f5f5f5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* HeaderSection CSS starts here  */
+
+#HeaderSection{
+    color: white;
+    width: 100%;
+}
+
+#menu{
+    display: none;
+}
+#LogoDiv {
+    width: 30%;
+    display: inline-block;
+}
+
+#OptionDiv{
+    width: 69%;
+    display: inline-block;
+}
+
+#LogoDiv h1{
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+#LogoDiv h1 span{
+    font-weight: 100;
+}
+
+#OptionDiv ul{
+    display: inline-block;
+    font-weight: 100;
+    /* float: right; */
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    
+}
+
+#OptionDiv ul li{
+    display: inline-block;
+    margin-left: 25px;
+
+   
+}
+
+#Sign{
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+
+/* HeaderSection CSS ends here */
+
+/* BodySection CSS starts here  */
+
+#BodySection{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#BodySection h1{
+    font-size: 53px;
+}
+
+#BodySection p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -15px;
+}
+
+#BodySection ul{
+    display: inline-block;
+}
+
+#BodySection ul li{
+    display: inline-block;
+    font-size: 21px;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 12px 53px;
+    margin-right: 18px;
+}
+
+#xyz{
+    background-color: white;
+    color: #797979;
+    font-weight: 900;
+    padding: 12px 70px !important;
+}
+
+#DescripSection{
+    color: 797979;
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top: 125px;
+}
+
+#DescripSection h1{
+    font-size: 34px;
+    padding-top: 88px;
+}
+
+#DescripSection p{
+    font-size: 21px;
+    font-weight: 900;
+    border-top: 1px solid #797979;
+    display: inline-block;
+    padding-top: 37px;
+}
+
+#DescripSection img{
+    width: 100%;
+    padding-top: 45px;
+    border-radius: 6px;
+}
+/* BodySection CSS ends here  */
+
+/* LogoSection css start here  */
+
+#LogoSection{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#LogoSection div{
+    display: inline-block;
+    width: 45%;
+    padding: 63px 4px;
+}
+
+#LogoSection div h1{
+    font-size: 32px;
+    color: #797979;
+    font-weight: 100;
+}
+
+#LogoSection div p{
+    font-size: 17px;
+}
+
+#div1 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #e89980;
+    color:white;
+    padding: 22px 35px;
+
+}
+
+#div2 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    color: white;
+    padding: 22px 20px;
+}
+
+#div3 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #90b0ba;
+    color: white;
+    padding: 22px 20px;
+}
+
+#div4 i{
+    font-size: 46px;
+    border-radius: 100%;
+    background-color: #e5cb95;
+    color: white;
+    padding: 22px 35px;
+}
+
+#div1{
+    border-right: 2px solid grey;
+    margin: 50px 12px 0px -12px;
+
+}
+#div2{
+    border-bottom: 2px solid grey;
+    margin: -2px 1px  -2px -23px;
+
+}
+#div3{
+    border-top: 2px solid grey;
+    margin: 0px -22px 19px 21px
+}
+#div4{
+    border-left: 2px solid grey;
+    margin: 0px 27px 0px 19px;
+}
+
+
+/* LogoSection css ends here */
+
+/* ImgSection css starts  here */
+
+#ImageSection1{
+    display: inline-block;
+    width: 33%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 44px;
+    margin: 26px 51px 45px 227px;
+    padding-bottom: 65px;
+    /*display: flex; */
+    /*justify-content: space-between; */
+    /* increase width size in div section */
+
+}
+
+#Img1 img{
+    
+    width: 100%;
+    margin-bottom: 27px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+
+#Img1 button{
+    margin-top: 30px;
+    background-color: transparent;
+    width: 133px;
+    height: 44px;
+    border-width: 1px;
+
+    border-radius: 10px 10px 10px 10px;
+}
+
+#ImageSection2{
+    display: inline-block;
+    width: 33%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 44px;
+    padding-bottom: 65px;
+
+}
+
+#Img2 img{
+    width: 100%;
+    margin-bottom: 27px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+
+#Img2 button{
+    margin-top: 30px;
+    background-color: transparent;
+    width: 133px;
+    height: 44px;
+    border-width: 1px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+/* ImgSection css ends here */
+
+/* FooterSection css starts here */
+
+#FooterSection {
+    margin: 30px -8px 2px -8px;
+    background-color: #e89980;
+}
+
+#FS {
+    padding: 40px 0px 60px 521px
+}
+#FS h1{
+    color: white;
+    margin-left: 97px;
+}
+
+#FS p{
+    color: white;
+    margin-left: 2px;
+}
+
+#FS input{
+    margin-left: 90px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(200, 190, 190);
+    border-radius: 8px 8px 8px 8px;
+
+}
+::placeholder{
+    color: white;
+}
+
+#Logo{
+    margin: 64px 2px;
+}
+#Icons{
+    margin: 70px 2px 156px 593px;
+}
+#Icons i{
+    display: inline-block;
+    margin-right: 25px;
+    
+
+}
+
+#Icons ul{
+    margin: 40px 2px 2px -170px;
+
+}
+#Icons ul li{
+    display: inline-block;
+    margin: 2px 22px 2px 2px;
+}
+
+#li1{
+}
+/* FooterSection css ends here */
+
+/* mobile version starts here */
+
+@media(max-width:600px){
+    #menu{
+        display:inline-block;
+        color:white;
+        background-color: rgb(210,204,204);
+        padding:5px;
+        border-radius:5px;
+    }
+    #HeaderSection{
+        display: none;
+    }
+
+    body{
+        background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 690px;
+    background-color: #f5f5f5;
+    font-family: 'Source Sans Pro', sans-serif;
+        background-position-x:center ;
+    }
+    #BodySection{
+        width:85%;
+        margin: auto;
+    }
+    #BodySection h1{
+        font-size:33px;
+        margin-bottom:0px ;
+        margin-left: 291px;
+    }
+    #BodySection button {
+        width:100%;
+        height:50px;
+
+
+    }
+
+    #DescripSection{
+        width:215%;
+        margin-top: 0px;
+        padding-top:30px;
+    }
+    br{
+        display: none;
+    }
+    #H-1{
+        font-size: 27px;
+
+    }
+    #H-2{
+        font-size: 20px;
+        width:90%;
+    }
+    #LogoSection{
+        width: 215%;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 6px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #div1 i{
+        font-size: 90px;
+        border-radius: 100%;
+        background-color: #e89980;
+        color:white;
+        padding: 22px 35px;
+    
+    }
+    #div2 i{
+        font-size: 90px;
+        border-radius: 100%;
+        background-color: #7fcdb8;
+        color: white;
+        padding: 22px 20px;
+    }
+    #div3 i{
+        font-size: 90px;
+        border-radius: 100%;
+        background-color: #7fcdb8;
+        color: white;
+        padding: 22px 30px;
+    }
+    #div4 i{
+        font-size: 90px;
+        border-radius: 100%;
+        background-color: #e5cb95;
+        color: white;
+        padding: 22px 35px;
+    }
+    #LogoSection div{
+        display: inline-block;
+        width: 90%;
+        padding: 63px 4px;
+    }
+    #div1{
+        border-right:none;
+    
+    }
+    #div2{
+        border-bottom: none;
+
+
+    }
+    #div3{
+        border-top: none;
+
+
+    }
+    #div4{
+        border-left: none;
+
+
+    }
+    #LogoSection div p {
+        font-size: 30px;
+    }
+    #ImageSection1{
+        display: inline-block;
+        width: 200%;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 6px;
+        text-align: center;
+        margin-top: 44px;
+        margin: 26px 51px 45px 0px;
+        padding-bottom: 65px;
+    
+    }
+    
+    #Img1 img{
+        width: 108%;
+        margin-bottom: 27px;
+    }
+    
+    #Img1 button{
+        margin-top: 30px;
+    }
+    #Img1 h1{
+        font-size: 32px;
+    }
+    #Img1 p{
+        font-size: 30px;
+    }
+    
+    #ImageSection2{
+        display: inline-block;
+        width: 213%;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 6px;
+        text-align: center;
+        margin-top: 44px;
+        padding-bottom: 65px;
+    
+    }
+    
+    #Img2 img{
+        width: 100%;
+        margin-bottom: 27px;
+    }
+    
+    #Img2 button{
+        margin-top: 30px;
+    }
+    #Img2 h1{
+        font-size: 32px;
+    }
+    #Img2 p{
+        font-size: 30px;
+    }
+
+}
+
+/* mobile version ends here */
