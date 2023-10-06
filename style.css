@@ -374,17 +374,17 @@ body{
     }
 
     .sidebar{
-        position: fixed;
+        /* position: fixed;
         height: 100%;
         width: 260px;
         background: #11101d;
         padding: 15px;
-        z-index: 99;
+        z-index: 99; */
     }
 
     .home{
-        font-size: 25px;
-        padding: 0 15px;
+        /* font-size: 25px;
+        padding: 0 15px; */
     }
 
 
